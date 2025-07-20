@@ -1,14 +1,18 @@
-import { JSONPreset } from 'json-server';
-import { fileURLToPath } from 'url';
-import { dirname, join } from 'path';
+const jsonServer = require('json-server')
+const path = require('path')
 
-const __dirname = dirname(fileURLToPath(import.meta.url));
-const PORT = process.env.PORT || 5000;
+const server = jsonServer.create()
+const router = jsonServer.router(path.join(__dirname, 'db.json'))
+const middlewares = jsonServer.defaults()
 
-// load / create db.json
-const db = await JSONPreset(join(__dirname, 'db.json'), {});
+server.use(middlewares)
 
-// start server
-db.server.listen(PORT, () =>
-  console.log(`JSON-Server is running on https://<your-app>.onrender.com`)
-);
+// To handle POST, PUT and PATCH requests, you need to use body-parser middleware (included in jsonServer.defaults)
+server.use(jsonServer.bodyParser)
+
+server.use(router)
+
+const PORT = process.env.PORT || 3000
+server.listen(PORT, () => {
+  console.log(`JSON Server is running on port ${PORT}`)
+})
