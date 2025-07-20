@@ -1,0 +1,94 @@
+{
+  "goals": [
+    {
+      "name": "Vacation Fund",
+      "targetAmount": 120000,
+      "category": "Travel",
+      "createdAt": "2025-01-20",
+      "deadline": "2025-08-15",
+      "totalSaved": "120000",
+      "id": "1"
+    },
+    {
+      "id": "2",
+      "name": "Lenovo Legion",
+      "targetAmount": 240000,
+      "category": "Tech",
+      "deadline": "2025-11-30",
+      "totalSaved": 105000,
+      "createdAt": "2025-01-02"
+    },
+    {
+      "name": "Emergency Fund Top-Up",
+      "targetAmount": 10000,
+      "category": "Savings",
+      "createdAt": "2024-09-20",
+      "deadline": "2025-06-02",
+      "totalSaved": 5200,
+      "id": "3"
+    },
+    {
+      "id": "4",
+      "name": "Gym Membership Yearly",
+      "targetAmount": 4800,
+      "category": "Health",
+      "deadline": "2025-07-25",
+      "totalSaved": 2000,
+      "createdAt": "2024-08-20"
+    },
+    {
+      "id": "5",
+      "name": "Weekend Road Trip",
+      "targetAmount": 35000,
+      "category": "Travel",
+      "deadline": "2025-09-10",
+      "totalSaved": 10000,
+      "createdAt": "2024-10-25"
+    },
+    {
+      "id": "6",
+      "name": "Noise-Cancelling Headphones",
+      "targetAmount": 22000,
+      "category": "Tech",
+      "deadline": "2025-08-05",
+      "totalSaved": 11000,
+      "createdAt": "2025-01-14"
+    },
+    {
+      "id": "7",
+      "name": "Rainy-Day Savings Pot",
+      "targetAmount": 7500,
+      "category": "Savings",
+      "deadline": "2025-12-31",
+      "totalSaved": 2300,
+      "createdAt": "2024-09-20"
+    },
+    {
+      "id": "8",
+      "name": "Check-up",
+      "targetAmount": 15000,
+      "category": "Health",
+      "deadline": "2025-08-30",
+      "totalSaved": 7100,
+      "createdAt": "2025-01-25"
+    },
+    {
+      "id": "9",
+      "name": "Mt Kenya Hike",
+      "targetAmount": 28000,
+      "category": "Travel",
+      "deadline": "2026-05-15",
+      "totalSaved": 21000,
+      "createdAt": "2024-11-20"
+    },
+    {
+      "id": "10",
+      "name": "Watch Upgrade",
+      "targetAmount": 30000,
+      "category": "Tech",
+      "deadline": "2025-10-20",
+      "totalSaved": 18000,
+      "createdAt": "2025-01-22"
+    }
+  ]
+}
